@@ -52,6 +52,8 @@ nav
     top:139px;
     height:32px;
     width:80%;
+    text-transform: uppercase;
+    font-family: Ubuntu;
     background: linear-gradient(90deg, rgba(80,0,13,0),rgba(80,0,13,0),rgba(80,0,13,0.5),rgba(80,0,13,0.1),rgba(80,0,13,0));
 }
 
