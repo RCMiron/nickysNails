@@ -100,15 +100,15 @@ section
 
 #home
 {
-    background-image:url(../image/rose.png);
+    background-image:url(../image/rose.jpg);
 }
 #about
 {
-    background-image:url(../image/blonde.png);
+    background-image:url(../image/blonde.jpg);
 }
 #contact
 {
-  background-image:url(../image/phone.png);  
+  background-image:url(../image/phone.jpg);  
 }
 @media screen and (max-width: 960px)
 {
