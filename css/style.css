@@ -67,9 +67,9 @@ li
     
     display:inline-block;
     font-family: Oleo Script;
-    font-size:17px;
+    font-size:19px;
     font-weight: 100;
-    margin:0px 5px 0px 5px;
+    margin:2px 5px 0px 5px;
     z-index:10;
  }
 
@@ -151,7 +151,7 @@ section
     li
     {
         display:block;
-        font-size:17px;
+        font-size:19px;
         border-bottom: 3px solid rgba(255,255,255,0.5);
     }
     li:hover
