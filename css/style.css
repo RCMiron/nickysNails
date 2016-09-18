@@ -53,7 +53,6 @@ nav
     height:32px;
     width:80%;
     text-transform: uppercase;
-    font-family: Ubuntu;
     background: linear-gradient(90deg, rgba(80,0,13,0),rgba(80,0,13,0),rgba(80,0,13,0.5),rgba(80,0,13,0.1),rgba(80,0,13,0));
 }
 
@@ -67,7 +66,7 @@ li
 {
     
     display:inline-block;
-    font-family: Ubuntu;
+    font-family: Righteous;
     font-size:22px;
     margin:0px 5px 0px 5px;
     z-index:10;
