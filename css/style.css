@@ -152,6 +152,7 @@ section
     {
         display:block;
         font-size:20px;
+        padding-top: 5px;
         border-bottom: 3px solid rgba(255,255,255,0.5);
     }
     li:hover
