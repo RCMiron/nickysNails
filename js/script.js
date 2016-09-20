@@ -9,10 +9,8 @@ $(document).ready(function() {
       scrollTop: $(anchorTo.attr('href')).offset().top
     }, 1000);
    });
-   if (window.matchMedia("(min-width: 460px)").matches){
-    $('nav li').css('border-bottom','none');
-  }
-  else{
+   if (window.matchMedia("(max-width: 460px)").matches){
+    
     $(window).scroll(function(){
        var where = $(this).scrollTop();
        if(where < $(this).height()){
@@ -57,6 +55,9 @@ $(document).ready(function() {
 
        }
      });
+  }
+  else{
+    $('nav li').css('border-bottom','none');
   }
   
 
