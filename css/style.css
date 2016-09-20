@@ -3,7 +3,7 @@
     font-family:Majel;
     src: url(fonts/Majel Bold.ttf);
 }
-body
+html, body
 {
     background-color:#fbdbe4;
     height:100%;
