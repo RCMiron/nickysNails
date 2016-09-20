@@ -13,18 +13,38 @@ $(document).ready(function() {
      var where = $(this).scrollTop();
      if(where < $(this).height()){
        $('.home').css('border-bottom','3px solid rgba(255,0,100,1)');
+       $('.about').css('border-bottom','none');
+       $('.gallery').css('border-bottom','none');
+       $('.services').css('border-bottom','none');
+       $('.contact').css('border-bottom','none');
      }
      else if(where < $(this).height()*2){
        $('.about').css('border-bottom','3px solid rgba(255,0,100,1)');
+       $('.home').css('border-bottom','none');
+       $('.gallery').css('border-bottom','none');
+       $('.services').css('border-bottom','none');
+       $('.contact').css('border-bottom','none');
      }
       else if(where < $(this).height()*3){
        $('.gallery').css('border-bottom','3px solid rgba(255,0,100,1)');
+       $('.home').css('border-bottom','none');
+       $('.about').css('border-bottom','none');
+       $('.services').css('border-bottom','none');
+       $('.contact').css('border-bottom','none');
      }
      else if(where < $(this).height()*4){
        $('.services').css('border-bottom','3px solid rgba(255,0,100,1)');
+       $('.home').css('border-bottom','none');
+       $('.gallery').css('border-bottom','none');
+       $('.about').css('border-bottom','none');
+       $('.contact').css('border-bottom','none');
      }
      else if(where < $(this).height()*5){
        $('.contact').css('border-bottom','3px solid rgba(255,0,100,1)');
+       $('.home').css('border-bottom','none');
+       $('.gallery').css('border-bottom','none');
+       $('.services').css('border-bottom','none');
+       $('.about').css('border-bottom','none');
      }
    })
  
