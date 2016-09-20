@@ -1,4 +1,4 @@
-$(document).on("pageinit",function() {
+$(document).ready(function() {
 
   $('nav a').click(function(event) {
     $(this).css("text-decoration","none");
