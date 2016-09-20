@@ -11,8 +11,20 @@ $(document).ready(function() {
    });
    $(window).scroll(function(){
      var where = $(this).scrollTop();
-     if(where < $(this).height()*0.7){
-       $('nav li:first-child').css('border-bottom','3px solid rgba(255,0,100,1)');
+     if(where < $(this).height()){
+       $('.home').css('border-bottom','3px solid rgba(255,0,100,1)');
+     }
+     else if(where < $(this).height()*2){
+       $('.about').css('border-bottom','3px solid rgba(255,0,100,1)');
+     }
+      else if(where < $(this).height()*3){
+       $('.gallery').css('border-bottom','3px solid rgba(255,0,100,1)');
+     }
+     else if(where < $(this).height()*4){
+       $('.services').css('border-bottom','3px solid rgba(255,0,100,1)');
+     }
+     else if(where < $(this).height()*5){
+       $('.contact').css('border-bottom','3px solid rgba(255,0,100,1)');
      }
    })
  
