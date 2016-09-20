@@ -69,6 +69,7 @@ li
     font-weight: 100;
     margin:5px 5px 0px 5px;
     z-index:10;
+    border-bottom: 0;
  }
 
 nav a
@@ -123,6 +124,7 @@ section
     {
         font-size:15px;
         margin:5px 5px 0px 5px;  
+        border-bottom:0;
     }
 }
 
