@@ -53,5 +53,8 @@ $(document).ready(function() {
 
        }
      });
+  if (window.matchMedia("(min-width: 460px)").matches){
+    $('nav li').css('border-bottom','none');
+  }
 
 });
