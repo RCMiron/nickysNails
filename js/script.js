@@ -28,7 +28,7 @@ $(document).ready(function() {
  -       $('.contact').css('border-bottom','3px solid rgba(255,255,255,0.5)').css('text-shadow','none');
 
        }
-        else if(where < $(this).height()*3){
+       else if(where < $(this).height()*3){
  -       $('.gallery').css('border-bottom','3px solid rgba(255,0,100,1)').css('text-shadow','2px 2px 5px #EC008C');
  -       $('.home').css('border-bottom','3px solid rgba(255,255,255,0.5)').css('text-shadow','none');
  -       $('.about').css('border-bottom','3px solid rgba(255,255,255,0.5)').css('text-shadow','none');
