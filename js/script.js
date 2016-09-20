@@ -10,8 +10,7 @@ $(document).ready(function() {
     }, 1000);
    });
    if (window.matchMedia("(max-width: 460px)").matches){
-    
-    $(window).scroll(function(){
+      $(window).scroll(function(){
        var where = $(this).scrollTop();
        if(where < $(this).height()){
  -       $('.home').css('border-bottom','3px solid rgba(255,0,100,1)').css('text-shadow','2px 2px 5px #EC008C');
@@ -56,7 +55,7 @@ $(document).ready(function() {
        }
      });
   }
-  else{
+  if (window.matchMedia("(min-width: 460px)").matches){
     $('nav li').css('border-bottom','none');
   }
   
