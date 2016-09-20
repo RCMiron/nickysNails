@@ -12,7 +12,7 @@ $(document).ready(function() {
    $(window).scroll(function(){
      var where = $(this).scrollTop();
      if(where < $(this).height()*0.7){
-       $('nav li:first child').css('border-bottom','3px solid rgba(255,0,100,1)');
+       $('nav li:first-child').css('border-bottom','3px solid rgba(255,0,100,1)');
      }
    })
  
