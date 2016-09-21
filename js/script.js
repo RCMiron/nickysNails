@@ -11,7 +11,7 @@ $(document).ready(function() {
    });
   $(window).scroll(function(){
      var where = $(this).scrollTop();
-     $('nav li').css('transition','transform 1s');
+     $('nav li').css('transition','border-bottom 0.5s ease');
      if (window.matchMedia("(min-width: 460px)").matches){
              $('nav li').css('border-bottom','none');
              if(where < $(this).height()*0.8){
