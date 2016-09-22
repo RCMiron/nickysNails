@@ -58,5 +58,16 @@ $(window).load(function() {
        -       $('.about, .gallery, .services, .home').css('border-bottom','3px solid rgba(255,255,255,0.5)').css('text-shadow','none');
              }
         }
+     if ($(this).scrollTop() > 100) {
+			$('.scrollToTop').fadeIn();
+		} 
+		 else {
+			$('.scrollToTop').fadeOut();
+		}
+		 $('.scrollToTop').click(function(){
+	   $('html, body').animate({scrollTop : 0},800);
+		 return false;
      });
+	});
+	
 });
