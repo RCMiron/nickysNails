@@ -36,6 +36,7 @@ header
     text-align: center;
     font-size:23pt;
     margin:21px;
+    right:0;
     text-shadow: 2px 2px 5px #EC008C;
 }
 #book img{
