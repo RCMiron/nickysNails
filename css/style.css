@@ -237,7 +237,8 @@ section
         height:120px;
     }
     header{
-      position:absolute;
+      position:relative;
+      background-attachment:fixed;
     }
     #logo{
       margin-left:150px;
