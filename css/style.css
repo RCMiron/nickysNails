@@ -26,6 +26,7 @@ header
     width:300px;
     margin-left:5px;
     top:7px;
+    float:left;
 }
 
 #book
@@ -34,7 +35,7 @@ header
     font-family: Lobster;
     color:white;
     text-align: center;
-    float:right;
+    float:left;
     font-size:23pt;
     margin:21px;
     text-shadow: 2px 2px 5px #EC008C;
