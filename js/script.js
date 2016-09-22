@@ -12,7 +12,7 @@ $(window).load(function() {
   $(window).scroll(function(){
      var where = $(this).scrollTop();
      $('nav li').css('transition','border-bottom 0.5s ease');
-     if (window.matchMedia("(min-width: 460px)").matches){
+     if (window.matchMedia("(min-width: 500px)").matches){
              $('nav li').css('border-bottom','none');
              if(where < $(this).height()*0.8){
        -       $('.home').css('text-shadow','2px 2px 5px #EC008C');
