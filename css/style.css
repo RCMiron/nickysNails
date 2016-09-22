@@ -188,9 +188,59 @@ section
         z-index:13;
     }
     #book img{
-        
         width:120px;
         height:120px;
-        
     }
 }
+@media screen and (max-height: 560px)
+{
+    ul
+    {
+        top:50px;
+    }
+    li
+    {
+        display:block;
+        font-size:22px;
+        border-bottom: 3px solid rgba(255,255,255,0.5);
+    }
+    li:hover
+    {
+       border-bottom: 3px solid rgba(255,0,100,1);
+    }
+
+    nav
+    {
+        margin:5px;
+        height:50px;
+        width:50px;
+        overflow: hidden;
+        background-image: url(../assets/figerprint.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    nav:hover
+    {
+        margin:0px;
+        height:800px;
+        width:150px;
+        overflow: hidden;
+        background: linear-gradient(90deg, rgba(80,0,13,0.5),rgba(80,0,13,0.5),rgba(80,0,13,0));
+    }
+    #book {
+        font-size:18px;
+        position: absolute;
+        margin:5px;
+        top:0px;
+        right:0px;
+        z-index:13;
+    }
+    #book img{
+        width:120px;
+        height:120px;
+    }
+    header{
+      position:absolute;
+    }
+ }
