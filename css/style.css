@@ -53,7 +53,6 @@ nav
     text-transform: uppercase;
     background: linear-gradient(90deg, rgba(80,0,13,0),rgba(80,0,13,0),rgba(80,0,13,0.5),rgba(80,0,13,0.1),rgba(80,0,13,0));
 }
-
 ul
 {
     position:absolute;
@@ -71,21 +70,17 @@ li
     z-index:10;
     border-bottom: 0;
  }
-
 nav a
 {
     text-decoration:none;
     color:white;
 }
-
-
 nav a:hover{
     text-decoration:none;
     color:white;
     text-shadow: 2px 2px 5px #EC008C;
     }
-
-
+    
 section
 {
     position:relative;
@@ -111,8 +106,12 @@ section
 {
   background-image:url(../image/phone.jpg);  
 }
-@media screen and (max-width: 960px)
-{
+.scrollToTop{
+    position: fixed;
+    bottom:10px;
+    right:10px;
+}
+@media screen and (max-width: 960px){
     header, section
     {
         width:100%;
@@ -127,9 +126,7 @@ section
         border-bottom:0;
     }
 }
-
-@media screen and (max-width: 860px)
-    {
+@media screen and (max-width: 860px){
     nav
         {
             top:171px;
@@ -142,8 +139,7 @@ section
             margin-left: -10px;
         }
     }
-@media screen and (max-width: 500px)
-{
+@media screen and (max-width: 500px){
     ul
     {
         top:50px;
@@ -192,8 +188,7 @@ section
         height:120px;
     }
 }
-@media screen and (max-height: 500px)
-{
+@media screen and (max-height: 500px){
     ul
     {
         top:50%;
