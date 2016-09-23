@@ -1,11 +1,8 @@
-html, body
-{
+html, body{
     background-color:#fbdbe4;
     height:100%;
 }
-
-header
-{
+header{
     background-image: url(../assets/dotsHeader.png);
     position:fixed;
     z-index:10;
@@ -15,19 +12,15 @@ header
     height:171px;
     border-bottom: 3px solid rgba(255,255,255,0.5);
     box-sizing:padding-box;
-    }
-
-#logo
-{
+}
+#logo{
     position:absolute;
     z-index:12;
     width:300px;
     margin-left:5px;
     top:7px;
 }
-
-#book
-{
+#book{
     position:absolute;
     font-family: Lobster;
     color:white;
@@ -40,9 +33,7 @@ header
 #book img{
     height:200px;
 }
-
-nav
-{
+nav{
     position:absolute;
     z-index:2;
     top:139px;
@@ -51,16 +42,12 @@ nav
     text-transform: uppercase;
     background: linear-gradient(90deg, rgba(80,0,13,0),rgba(80,0,13,0),rgba(80,0,13,0.5),rgba(80,0,13,0.1),rgba(80,0,13,0));
 }
-
-ul
-{
+ul{
     position:absolute;
     left:290px;
-    
 }
-li
-{
-    
+li{
+
     display:inline-block;
     font-family: Oleo Script;
     font-size:19px;
@@ -69,96 +56,87 @@ li
     z-index:10;
     border-bottom: 0;
  }
-
-nav a
-{
+nav a{
     text-decoration:none;
     color:white;
 }
-
-
 nav a:hover{
     text-decoration:none;
     color:white;
     text-shadow: 2px 2px 5px #EC008C;
-    }
-
-
-section
-{
-    position:relative;
-    width:960px;
+}
+main{
+  position:relative;
+  width:960px;
+  height:100%;
+  left:50%;
+  margin-left:-480px;
+}
+section{
+    width:100%;
     height:100%;
-    left:50%;
-    margin-left:-480px;
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
 }
-
-#home
-{
+#home{
     background-image:url(../image/rose.jpg);
 }
-#about
-{
+#about{
     background-image:url(../image/blonde.jpg);
 }
-#contact
-{
-  background-image:url(../image/phone.jpg);  
+#contact{
+  background-image:url(../image/phone.jpg);
 }
-@media screen and (max-width: 960px)
-{
-    header, section
-    {
+#backToTop{
+  position: fixed;
+  bottom:5%;
+  right:5%;
+  transition: opacity 0.2s ease-out;
+  opacity: 0;
+  cursor:pointer;
+}
+#backToTop.show{
+  opacity: 1;
+}
+
+@media screen and (max-width: 960px){
+    header, main{
         width:100%;
         left:0px;
         margin:0px;
     }
-    
-    li
-    {
+    li{
         font-size:15px;
-        margin:5px 5px 0px 5px;  
+        margin:5px 5px 0px 5px;
         border-bottom:0;
     }
 }
-
-@media screen and (max-width: 860px)
-    {
-    nav
-        {
-            top:171px;
-            background: linear-gradient(90deg, rgba(80,0,13,0.5),rgba(80,0,13,0.5),rgba(80,0,13,0));
+@media screen and (max-width: 860px){
+    nav{
+        top:171px;
+        background: linear-gradient(90deg, rgba(80,0,13,0.5),rgba(80,0,13,0.5),rgba(80,0,13,0));
         }
-    ul
-        {
-            
-            left:0px;
-            margin-left: -10px;
+    ul{
+        left:0px;
+        margin-left: -10px;
         }
     }
-@media screen and (max-width: 500px)
-{
-    ul
-    {
+@media screen and (max-width: 460px){
+    ul{
         top:50px;
     }
-    li
-    {
+    li{
         display:block;
         font-size:20px;
         padding-top: 5px;
         border-bottom: 3px solid rgba(255,255,255,0.5);
     }
-    li:hover
-    {
-       border-bottom: 3px solid rgba(255,0,100,1); 
+    li:hover{
+       border-bottom: 3px solid rgba(255,0,100,1);
     }
-    nav
-    {
+    nav{
         margin:5px;
         height:50px;
         width:50px;
@@ -166,18 +144,15 @@ section
         background-image: url(../assets/figerprint.png);
         background-size: contain;
         background-repeat: no-repeat;
-        
     }
-    nav:hover
-    {
+    nav:hover{
         margin:0px;
         height:800px;
         width:150px;
         overflow: hidden;
         background: linear-gradient(90deg, rgba(80,0,13,0.5),rgba(80,0,13,0.5),rgba(80,0,13,0));
-        
     }
-    #book {
+    #book{
         font-size:18px;
         position: absolute;
         margin:5px;
@@ -190,10 +165,8 @@ section
         height:120px;
     }
 }
-@media screen and (max-height: 500px)
-{
-    ul
-    {
+@media screen and (max-height: 460px){
+    ul{
         top:50%;
         margin-top:-80%;
         border-top: 10px double rgba(255, 255, 255, 0.5);
@@ -201,21 +174,15 @@ section
         padding: 20px;
         width:100%;
     }
-    li
-    {
+    li{
         display:block;
         font-size:22px;
         border-bottom: 3px solid rgba(255,255,255,0.5);
     }
-    li:hover
-    {
+    li:hover{
        border-bottom: 3px solid rgba(255,0,100,1);
     }
-
-
-
-    nav
-    {
+    nav{
         position: fixed;
         top:0;
         margin:0px;
@@ -223,10 +190,8 @@ section
         width:150px;
         overflow: hidden;
         background-color: rgba(80,0,13,0.5);
-
-
     }
-    #book {
+    #book{
         font-size:18px;
         margin:5px;
     }
@@ -235,10 +200,10 @@ section
         height:120px;
     }
     header{
-      position:relative;
-      background-attachment:fixed;
+        position:relative;
+        background-attachment:fixed;
     }
-    #logo{
-      margin-left:150px;
+        #logo{
+        margin-left:150px;
     }
  }
