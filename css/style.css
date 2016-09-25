@@ -96,6 +96,7 @@ section{
   transition: opacity 0.2s ease-out;
   opacity: 0;
   cursor:pointer;
+  mix-blend-mode: color-burn;
 }
 #backToTop.show{
   opacity: 1;
