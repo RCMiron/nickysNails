@@ -93,6 +93,7 @@ section{
   position: fixed;
   bottom:3%;
   right:15%;
+  widt: 20px;
   transition: opacity 0.2s ease-out;
   opacity: 0;
   cursor:pointer;
