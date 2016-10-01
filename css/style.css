@@ -148,7 +148,7 @@ section{
         background-size: contain;
         background-repeat: no-repeat;
     }
-    nav:hover{
+    nav:active{
         margin:0px;
         height:800px;
         width:150px;
