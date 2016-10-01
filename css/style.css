@@ -92,14 +92,16 @@ section{
 #backToTop{
   position: fixed;
   bottom:3%;
-  right:15%;
+  right:10%;
   transition: opacity 0.2s ease-out;
   opacity: 0;
   cursor:pointer;
-  mix-blend-mode: color-burn;
 }
 #backToTop.show{
   opacity: 1;
+}
+#backToTop img{
+  width:50px;
 }
 
 @media screen and (max-width: 960px){
