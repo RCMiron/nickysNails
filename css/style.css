@@ -150,7 +150,7 @@ section{
     }
     nav:active{
         margin:0px;
-        height:800px;
+        height:900px;
         width:150px;
         overflow: hidden;
         background: linear-gradient(90deg, rgba(80,0,13,0.5),rgba(80,0,13,0.5),rgba(80,0,13,0));
